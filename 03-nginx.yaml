@@ -1,0 +1,5 @@
+- name: install nginx
+  become: yes
+  tasks:
+  -name: installnginx
+   ansible.builtin.package
