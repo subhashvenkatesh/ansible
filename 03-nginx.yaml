@@ -1,5 +1,4 @@
 - name: install and run nginx
-  become: yes
   hosts: nginx
   tasks:
   - name: install nginx package
